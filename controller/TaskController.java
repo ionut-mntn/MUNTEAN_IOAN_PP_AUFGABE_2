@@ -16,7 +16,7 @@ public class TaskController {
             if(t.equals(t2)) return false; // daca exista deja task-ul de adaugat, returnez false
         }
         taskRepo.getTaskList().add(t); // altfel, adaug noul task !!
-        return true;
+        return true; //
     }
 
     public boolean removeTask(Task t){
