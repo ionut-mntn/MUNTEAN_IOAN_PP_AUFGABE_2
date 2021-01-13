@@ -10,6 +10,8 @@ public class Main {
         Task t = new Task("proba", 2);
         System.out.println(t);
 
+        System.out.println("proba2");
+
     }
 
 }
